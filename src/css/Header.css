@@ -1,0 +1,32 @@
+.main-header {
+  background: #1976d2;
+  color: #fff;
+  padding: 0.5rem 0 0.3rem 0;
+  margin-bottom: 1rem;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+.main-header h1 {
+  margin: 0 0 0.2rem 0;
+  font-size: clamp(1.1rem, 3vw, 2.1rem);
+  letter-spacing: 1px;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: text-decoration 0.2s;
+}
+.nav-list a:focus, .nav-list a:hover {
+  text-decoration: underline;
+  outline: 2px solid #fff;
+}
